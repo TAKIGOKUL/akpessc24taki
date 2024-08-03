@@ -119,10 +119,10 @@ body {
 }
 
 /* NAVBAR MEDIA QUERY START */
-@media screen and (max-width: 991px) {
+@media screen and (max-width: 991px) and (max-width:1200px) {
     .main_nav-bar {
         width: 100% !important;
-        background: #0f1726 !important;
+        background: #1a3c5b !important;
         border-bottom: 2px solid var(--primaryHoverColor);
     }
 
@@ -234,7 +234,7 @@ header {
 .landing-page-heading::after {
     content: '';
     position: absolute;
-    background: var(--primaryHoverColor);
+    background:;
     width: 75px;
     height: 3px;
     display: block;
