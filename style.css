@@ -122,7 +122,7 @@ body {
 @media screen and (max-width: 991px) and (max-width:1200px) {
     .main_nav-bar {
         width: 100% !important;
-        background: #1a3c5b !important;
+        background: #a57110 !important;
         border-bottom: 2px solid var(--primaryHoverColor);
     }
 
