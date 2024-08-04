@@ -212,7 +212,7 @@ video {
 
 header {
     z-index: 4;
-    color: #fff;
+    color:#A57110;
     font-family: 'Raleway';
     font-weight: var(--primaryFontWeight);
     text-transform: uppercase;
