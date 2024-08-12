@@ -5,7 +5,7 @@
     --primaryFont: 'Raleway', sans-serif;
     --primaryFontWeight: 500;
     --primaryTransition: all 0.3s linear;
-    --primaryHoverColor: #e6bd55;
+    --primaryHoverColor: #262522;
     --primaryBackground: #363610;
     --primaryOpacity: 1;
     --secondaryColor: #f9cf68;
@@ -51,7 +51,7 @@ html{
 
 body {
     font-family: 'Poppins' !important;
-    background-color: #0f1726;
+    background-color: #f0d290;
 }
 
 /* NAVBAR START */
@@ -123,7 +123,7 @@ body {
 @media screen and (max-width: 991px) and (max-width:1200px) {
     .main_nav-bar {
         width: 100% !important;
-        background: #0f1726 !important;
+        background: #e7d6a3 !important;
         border-bottom: 2px solid var(--primaryHoverColor);
     }
 
@@ -266,7 +266,7 @@ header {
 
 .btn-register:hover {
     color: #fff;
-    background: #0f1726;
+    background: #f0d290;
     width: 218px;
 }
 
@@ -705,7 +705,7 @@ header {
 }
 
 .schedule_btn {
-    background: #0f1726;
+    background: #f0d290;
 }
 
 .active_schedule_btn {
@@ -1461,7 +1461,7 @@ header {
 /* SECTION - 9 START */
 .contact {
     min-height: calc(100vh - 100px);
-    background: #212739;
+    background: #6a4a06;
     color: #fff;
     text-align: center;
 }
@@ -1534,7 +1534,7 @@ header {
 }
 
 .btn-dir:hover {
-    background: #0f1726;
+    background: #e4c072;
     color: #fff;
     width: 230px;
 }
