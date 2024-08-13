@@ -599,15 +599,15 @@ strong {
   ABOUT              
 -----------------------------------------*/
 .about-section {
-  background-image: url("../images/edward-unsplash-blur.jpg");
-  background-color: #704010;
+  background-image: url("../images/");
+  background-color: #8d611f;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
 }
 .about-section2 {
   background-image: url("../images/");
-  background-color: #dba646;
+  background-color: #8d611f;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
@@ -615,7 +615,7 @@ strong {
 
 .about-section21 {
   background-image: url("../images/");
-  background-color: #dba646;
+  background-color: #8d611f;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
@@ -750,7 +750,7 @@ strong {
 -----------------------------------------*/
 .schedule-section {
   /* background-image: url("../images/nainoa-shizuru-unsplash-blur.jpg"); */
-  background-color: #dba646;
+  background-color: #8d611f;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
