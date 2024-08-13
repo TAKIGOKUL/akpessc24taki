@@ -702,8 +702,8 @@ strong {
 }
 
 .artists-hover {
-  background-color: var(--primary-color);
-  background-color: rgba(248, 203, 46, 0.75);
+  background-color: #dba74667;
+  background-color: #8d611f69);
   border-radius: var(--border-radius-medium);
   backdrop-filter: blur(5px) saturate(180%);
   -webkit-backdrop-filter: blur(5px) saturate(180%);
@@ -726,11 +726,11 @@ strong {
 }
 
 .artists-hover p a {
-  color: var(--secondary-color);
+  color: #dba646;
 }
 
 .artists-hover p a:hover {
-  color: var(--white-color);
+  color: #dba646;
 }
 
 .artists-hover hr {
@@ -741,8 +741,8 @@ strong {
   SCHEDULE              
 -----------------------------------------*/
 .schedule-section {
-  background-image: url("../images/nainoa-shizuru-unsplash-blur.jpg");
-  background-color: #242424;
+  /* background-image: url("../images/nainoa-shizuru-unsplash-blur.jpg"); */
+  background-color: #dba646;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -758,7 +758,7 @@ strong {
 }
 
 .schedule-table .bg-warning {
-  background: #f0a5a5 !important;
+  background: #af7c2f !important;
 }
 
 .schedule-table thead th {
@@ -768,7 +768,7 @@ strong {
 .schedule-table th,
 .schedule-table tr,
 .schedule-table td {
-  border-bottom-color: #363a3e;
+  border-bottom-color: #865103;
   padding: 30px;
 }
 
@@ -778,7 +778,7 @@ strong {
 }
 
 .schedule-table thead th {
-  border-right: 1px solid #c7460a;
+  border-right: 1px solid #c2bbb8;
   border-bottom-color: transparent;
 }
 
