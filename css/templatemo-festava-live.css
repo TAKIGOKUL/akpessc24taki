@@ -460,7 +460,7 @@ strong {
 }
 
 .sticky-wrapper.is-sticky .navbar {
-  background-color: var(--dark-color);
+  background-color: #00000098;
 }
 
 .navbar {
