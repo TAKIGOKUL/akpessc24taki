@@ -46,6 +46,107 @@ body {
   background-color: var(--white-color);
   font-family: var(--body-font-family);
 }
+,
+:before,
+:after {
+  --tw-border-spacing-x: 0;
+  --tw-border-spacing-y: 0;
+  --tw-translate-x: 0;
+  --tw-translate-y: 0;
+  --tw-rotate: 0;
+  --tw-skew-x: 0;
+  --tw-skew-y: 0;
+  --tw-scale-x: 1;
+  --tw-scale-y: 1;
+  --tw-pan-x: ;
+  --tw-pan-y: ;
+  --tw-pinch-zoom: ;
+  --tw-scroll-snap-strictness: proximity;
+  --tw-gradient-from-position: ;
+  --tw-gradient-via-position: ;
+  --tw-gradient-to-position: ;
+  --tw-ordinal: ;
+  --tw-slashed-zero: ;
+  --tw-numeric-figure: ;
+  --tw-numeric-spacing: ;
+  --tw-numeric-fraction: ;
+  --tw-ring-inset: ;
+  --tw-ring-offset-width: 0px;
+  --tw-ring-offset-color: #fff;
+  --tw-ring-color: rgb(59 130 246 / 0.5);
+  --tw-ring-offset-shadow: 0 0 #0000;
+  --tw-ring-shadow: 0 0 #0000;
+  --tw-shadow: 0 0 #0000;
+  --tw-shadow-colored: 0 0 #0000;
+  --tw-blur: ;
+  --tw-brightness: ;
+  --tw-contrast: ;
+  --tw-grayscale: ;
+  --tw-hue-rotate: ;
+  --tw-invert: ;
+  --tw-saturate: ;
+  --tw-sepia: ;
+  --tw-drop-shadow: ;
+  --tw-backdrop-blur: ;
+  --tw-backdrop-brightness: ;
+  --tw-backdrop-contrast: ;
+  --tw-backdrop-grayscale: ;
+  --tw-backdrop-hue-rotate: ;
+  --tw-backdrop-invert: ;
+  --tw-backdrop-opacity: ;
+  --tw-backdrop-saturate: ;
+  --tw-backdrop-sepia: ;
+}
+
+::backdrop {
+  --tw-border-spacing-x: 0;
+  --tw-border-spacing-y: 0;
+  --tw-translate-x: 0;
+  --tw-translate-y: 0;
+  --tw-rotate: 0;
+  --tw-skew-x: 0;
+  --tw-skew-y: 0;
+  --tw-scale-x: 1;
+  --tw-scale-y: 1;
+  --tw-pan-x: ;
+  --tw-pan-y: ;
+  --tw-pinch-zoom: ;
+  --tw-scroll-snap-strictness: proximity;
+  --tw-gradient-from-position: ;
+  --tw-gradient-via-position: ;
+  --tw-gradient-to-position: ;
+  --tw-ordinal: ;
+  --tw-slashed-zero: ;
+  --tw-numeric-figure: ;
+  --tw-numeric-spacing: ;
+  --tw-numeric-fraction: ;
+  --tw-ring-inset: ;
+  --tw-ring-offset-width: 0px;
+  --tw-ring-offset-color: #fff;
+  --tw-ring-color: rgb(59 130 246 / 0.5);
+  --tw-ring-offset-shadow: 0 0 #0000;
+  --tw-ring-shadow: 0 0 #0000;
+  --tw-shadow: 0 0 #0000;
+  --tw-shadow-colored: 0 0 #0000;
+  --tw-blur: ;
+  --tw-brightness: ;
+  --tw-contrast: ;
+  --tw-grayscale: ;
+  --tw-hue-rotate: ;
+  --tw-invert: ;
+  --tw-saturate: ;
+  --tw-sepia: ;
+  --tw-drop-shadow: ;
+  --tw-backdrop-blur: ;
+  --tw-backdrop-brightness: ;
+  --tw-backdrop-contrast: ;
+  --tw-backdrop-grayscale: ;
+  --tw-backdrop-hue-rotate: ;
+  --tw-backdrop-invert: ;
+  --tw-backdrop-opacity: ;
+  --tw-backdrop-saturate: ;
+  --tw-backdrop-sepia: ;
+}
 
 /*---------------------------------------
   TYPOGRAPHY               
@@ -505,8 +606,16 @@ strong {
   position: relative;
 }
 .about-section2 {
-  background-image: url("../images/no-star-3.png");
-  background-color: #704010;
+  background-image: url("../images/");
+  background-color: #dba646;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.about-section21 {
+  background-image: url("../images/");
+  background-color: #dba646;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
@@ -601,8 +710,8 @@ strong {
 }
 
 .artists-hover {
-  background-color: var(--primary-color);
-  background-color: rgba(248, 203, 46, 0.75);
+  background-color: #dba74667;
+  background-color: #8d611f69);
   border-radius: var(--border-radius-medium);
   backdrop-filter: blur(5px) saturate(180%);
   -webkit-backdrop-filter: blur(5px) saturate(180%);
@@ -625,11 +734,11 @@ strong {
 }
 
 .artists-hover p a {
-  color: var(--secondary-color);
+  color: #dba646;
 }
 
 .artists-hover p a:hover {
-  color: var(--white-color);
+  color: #dba646;
 }
 
 .artists-hover hr {
@@ -640,8 +749,8 @@ strong {
   SCHEDULE              
 -----------------------------------------*/
 .schedule-section {
-  background-image: url("../images/nainoa-shizuru-unsplash-blur.jpg");
-  background-color: #242424;
+  /* background-image: url("../images/nainoa-shizuru-unsplash-blur.jpg"); */
+  background-color: #dba646;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -657,7 +766,7 @@ strong {
 }
 
 .schedule-table .bg-warning {
-  background: #f0a5a5 !important;
+  background: #af7c2f !important;
 }
 
 .schedule-table thead th {
@@ -667,7 +776,7 @@ strong {
 .schedule-table th,
 .schedule-table tr,
 .schedule-table td {
-  border-bottom-color: #363a3e;
+  border-bottom-color: #865103;
   padding: 30px;
 }
 
@@ -677,7 +786,7 @@ strong {
 }
 
 .schedule-table thead th {
-  border-right: 1px solid #c7460a;
+  border-right: 1px solid #c2bbb8;
   border-bottom-color: transparent;
 }
 
