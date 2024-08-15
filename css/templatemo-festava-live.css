@@ -426,7 +426,7 @@ strong {
 /*---------------------------------------
   VIDEO              
 -----------------------------------------*/
-.video-wrap {
+/* .video-wrap {
   z-index: -100;
 }
 
@@ -437,7 +437,29 @@ strong {
   object-fit: cover;
   width: 100%;
   height: 100%;
+} */
+
+/* Container to ensure the video covers the full screen */
+.video-wrap {
+  position: fixed; 
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  z-index: -100; 
 }
+
+/* Style for the video itself */
+.custom-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; 
+}
+
 
 /*---------------------------------------
   SITE HEADER              
