@@ -622,14 +622,14 @@ strong {
 -----------------------------------------*/
 .about-section {
   background-image: url("../images/");
-  background-color: #000000f5;
+  background-color: #00000079;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
 }
 .about-section2 {
   background-image: url("../images/");
-  background-color: #000000f5;
+  background-color: #00000079;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
@@ -637,7 +637,7 @@ strong {
 
 .about-section21 {
   background-image: url("../images/");
-  background-color: #000000f5;
+  background-color: #00000079;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
@@ -772,7 +772,7 @@ strong {
 -----------------------------------------*/
 .schedule-section {
   /* background-image: url("../images/nainoa-shizuru-unsplash-blur.jpg"); */
-  background-color: #000000f5;
+  background-color: #0000004b;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -875,10 +875,10 @@ strong {
 }
 
 .pricing-tag {
-  background-color: var(--secondary-color);
+  background-color: #301d02;
   border-radius: var(--border-radius-large);
-  color: var(--white-color);
-  font-weight: var(--font-weight-bold);
+  color: var #5e3c0a;
+  font-weight: var #301d02;
   text-align: center;
   display: flex;
   flex-direction: column;
