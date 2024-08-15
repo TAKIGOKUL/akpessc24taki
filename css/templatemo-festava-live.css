@@ -12,8 +12,8 @@ https://templatemo.com/tm-583-festava-live
 :root {
   --white-color: #ffffff;
   --primary-color: #f8cb2e;
-  --secondary-color: #dba646;
-  --section-bg-color: #f0f8ff;
+  --secondary-color: #1412114f;
+  --section-bg-color: #00000079;
   --custom-btn-bg-color: #8d611f;
   --custom-btn-bg-hover-color: #f87902;
   --dark-color: #000000;
@@ -772,7 +772,7 @@ strong {
 -----------------------------------------*/
 .schedule-section {
   /* background-image: url("../images/nainoa-shizuru-unsplash-blur.jpg"); */
-  background-color: #0000004b;
+  background-color: #000000798;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -851,7 +851,7 @@ strong {
   PRICING              
 -----------------------------------------*/
 .pricing-thumb {
-  border: 5px dotted var(--dark-color);
+  border: 5px dotted #e8e8e8;
   border-radius: var(--border-radius-medium);
   position: relative;
   padding: 50px;
@@ -859,7 +859,7 @@ strong {
 
 .pricing-thumb h3 small {
   display: inline-block;
-  font-size: var(--p-font-size);
+  font-size: var #e8e8e8;
   margin-right: 15px;
 }
 
@@ -877,8 +877,8 @@ strong {
 .pricing-tag {
   background-color: #301d02;
   border-radius: var(--border-radius-large);
-  color: var #5e3c0a;
-  font-weight: var #301d02;
+  color: var #e8e8e8;
+  font-weight: var #cebea7;
   text-align: center;
   display: flex;
   flex-direction: column;
