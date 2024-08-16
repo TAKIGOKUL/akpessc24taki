@@ -11,7 +11,7 @@ https://templatemo.com/tm-583-festava-live
 -----------------------------------------*/
 :root {
   --white-color: #ffffff;
-  --primary-color: #dda745;
+  --primary-color: #ffb53d ;
   --secondary-color: #1412114f;
   --section-bg-color: #00000079;
   --custom-btn-bg-color: #ab7b2f;
@@ -367,7 +367,7 @@ strong {
 .nav-tabs .nav-link.active,
 .nav-tabs .nav-link:focus,
 .nav-tabs .nav-link:hover {
-  background: var(--white-color);
+  background: #f4a01038;
   box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175);
   color: var(--primary-color);
 }
@@ -921,7 +921,7 @@ strong {
   CUSTOM FORM               
 -----------------------------------------*/
 .custom-form .form-control {
-  color: var(--p-color);
+  color: #dda745;
   margin-bottom: 24px;
   padding-top: 13px;
   padding-bottom: 13px;
@@ -929,10 +929,10 @@ strong {
 }
 
 .custom-form button[type="submit"] {
-  background: var(--custom-btn-bg-color);
+  background: #aeada62a;
   border: none;
   border-radius: var(--border-radius-large);
-  color: var(--white-color);
+  color: grey;
   font-size: var(--p-font-size);
   font-weight: var(--font-weight-medium);
   transition: all 0.3s;
