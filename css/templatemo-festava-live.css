@@ -987,7 +987,7 @@ strong {
 
 .site-footer-link,
 .copyright-text {
-  color: var(--white-color);
+  color: #ffff;
 }
 
 .site-footer-links {
