@@ -520,7 +520,7 @@ strong {
 
 .navbar-nav .nav-link.active,
 .navbar-nav .nav-link:hover {
-  color: var(--secondary-color);
+  color: #dda745;
 }
 
 .navbar-toggler {
