@@ -1217,3 +1217,40 @@ strong {
   width: 100%;
   height: auto;
 }
+
+
+/* Footer Sponsor logos */
+
+
+
+.sponsor-container {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+}
+
+.sponsor-logo {
+  flex: 1 1 20%; 
+  max-width: 150px;
+  margin: 10px;
+}
+
+.sponsor-logo img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 480px) {
+  .sponsor-container {
+      justify-content: space-between;
+      gap: 10px;
+  }
+  .sponsor-logo {
+      flex: 1 1 20%;
+      max-width: 70px; 
+  }
+}
