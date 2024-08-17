@@ -43,12 +43,16 @@
     </script>
 
     <!-- Prealoader script -->
-    <script>
-        window.addEventListener('load', function () {
-            var preloader = document.getElementById('preloader');
-            preloader.style.display = 'none';
-        });
-    </script>
+    <!-- window.addEventListener("load", function() {
+        let loader = document.getElementById("preloader");
+        loader.style.opacity = "0";
+        loader.style.transition = "opacity 0.5s ease-out";
+    
+        setTimeout(function(){
+            loader.style.display = "none";
+        }, 500);  // Wait for the fade-out transition
+    }); -->
+    
     
 </head>
 
@@ -78,9 +82,8 @@
       </style>
       
       <!-- Pre Loader -->
-      <div id="preloader">
-        <img src="logolandings.gif" alt="Loading...">
-    </div>
+      <div id="preloader"></div>
+
     
 
     <main>
@@ -1283,6 +1286,18 @@ T e m p l a t e M o
     publicKey: "",
   });
 })();
+</script>
+
+<script>
+    window.addEventListener("load", function() {
+        let loader = document.getElementById("preloader");
+        loader.style.opacity = "0";
+        loader.style.transition = "opacity 0.5s ease-out";
+
+        setTimeout(function(){
+            loader.style.display = "none";
+        }, 500);  
+    });
 </script>
 
 </body>
