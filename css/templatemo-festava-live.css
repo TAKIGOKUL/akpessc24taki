@@ -1290,19 +1290,18 @@ strong {
 
 /* Pre Loader */
 #preloader {
+  background: #000 url(/logolandings.gif) no-repeat center center;
+  background-size: contain;
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: #11111100; 
   z-index: 9999;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
-#preloader img {
+
+/* #preloader img {
   width: 800px; 
   height: auto;
-}
+} */
