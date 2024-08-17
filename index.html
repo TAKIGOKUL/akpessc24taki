@@ -41,6 +41,15 @@
             });
         }
     </script>
+
+    <!-- Prealoader script -->
+    <script>
+        window.addEventListener('load', function () {
+            var preloader = document.getElementById('preloader');
+            preloader.style.display = 'none';
+        });
+    </script>
+    
 </head>
 
 <body>
@@ -68,6 +77,11 @@
         }
       </style>
       
+      <!-- Pre Loader -->
+      <div id="preloader">
+        <img src="logolandings.gif" alt="Loading...">
+    </div>
+    
 
     <main>
 
