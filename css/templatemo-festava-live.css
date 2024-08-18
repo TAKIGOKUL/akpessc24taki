@@ -1290,7 +1290,7 @@ strong {
 
 /* Pre Loader */
 #preloader {
-  background: #000 url(/logolandings.gif) no-repeat center center;
+  background: #000 url(/preldr/preloader.v2.gif) no-repeat center center;
   background-size: contain;
   position: fixed;
   top: 0;
