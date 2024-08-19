@@ -1281,3 +1281,23 @@ strong {
   height: 100%;
   z-index: 9999;
 }
+
+/* Home Logo */
+.akpessc-logo {
+  width: 300px;
+  height: auto;
+}
+
+/* Medium Devices (Tablets, 768px and up) */
+@media (min-width: 768px) {
+  .akpessc-logo {
+      width: 400px;
+  }
+}
+
+/* Large Devices (Desktops, 1200px and up) */
+/* @media (min-width: 1200px) {
+  .akpessc-logo {
+      width: 500px;
+  }
+} */
