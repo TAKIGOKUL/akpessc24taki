@@ -1281,3 +1281,32 @@ strong {
   height: 100%;
   z-index: 9999;
 }
+
+
+/* Home Screen Center logo */
+
+.akpessc-logo {
+  width: 300px;
+  height: auto;
+}
+
+/* Medium Devices (Tablets, 768px and up) */
+@media (min-width: 768px) {
+  .akpessc-logo {
+      width: 400px;
+  }
+}
+
+/* Large Devices (Desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .akpessc-logo {
+      width: 435px;
+  }
+}
+
+/* Large Ass Devices (Desktops, 1366px and up) */
+@media (min-width: 1366px) {
+  .akpessc-logo {
+      width: 450px;
+  }
+}
