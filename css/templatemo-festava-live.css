@@ -10,8 +10,8 @@
   --section-bg-color: #00000079;
   --custom-btn-bg-color: #ab7b2f;
   --custom-btn-bg-hover-color: #815317;
-  --dark-color: #000000;
-  --p-color: #717275;
+  --dark-color: #0000005d;
+  --p-color: #ffffff00;
   --border-color: #7fffd4;
   --link-hover-color: #b22727;
 
@@ -37,7 +37,7 @@
 }
 
 body {
-  background-color: var(--white-color);
+  background-color: #d6ba2b;
   font-family: var(--body-font-family);
 }
 ,
@@ -315,7 +315,7 @@ strong {
 }
 
 .section-bg {
-  background-color: var(--section-bg-color);
+  background-color: #d6b92b00;
 }
 
 .section-overlay {
@@ -765,7 +765,7 @@ strong {
   background-size: cover;
 }
 .table-responsive {
-  filter: drop-shadow(2px 2px 4px #606060);
+  filter: drop-shadow(2px 2px 4px #00000000);
 }
 
 .schedule-table {
@@ -931,14 +931,14 @@ strong {
   SITE FOOTER              
 -----------------------------------------*/
 .site-footer {
-  background-color: var(--dark-color);
+  background-color: #000000;
   position: relative;
   overflow: hidden;
   padding-bottom: 30px;
 }
 
 .site-footer-top {
-  background-color: #ab7b2f;
+  background-color: #b9832d ;
   background-image: url("../images/nainoa-shizuru-NcdG9mK3PBY-unsplash.jpg");
   background-repeat: no-repeat;
   margin-bottom: 10px;
@@ -946,7 +946,7 @@ strong {
   padding-bottom: 30px; */
 }
 .site-footer-top1 {
-  background-color: #000000;
+  background-color: #ffb53d;
   background-image: url("../images/nainoa-shizuru-NcdG9mK3PBY-unsplash.jpg");
   background-repeat: no-repeat;
   margin-bottom: 70px;
