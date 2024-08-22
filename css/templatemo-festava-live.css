@@ -862,7 +862,7 @@ strong {
 }
 
 .pricing-tag {
-  background-color: #301d02;
+  background-color: #da830a;
   border-radius: var(--border-radius-large);
   color: var #e8e8e8;
   font-weight: var #cebea7;
@@ -890,7 +890,7 @@ strong {
 }
 
 .pricing-thumb .link-fx-1:hover {
-  color: var(--link-hover-color);
+  color: #f5953c;
 }
 
 /*---------------------------------------
