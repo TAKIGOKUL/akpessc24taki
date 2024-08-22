@@ -381,7 +381,7 @@ strong {
   CUSTOM ICON COLOR               
 -----------------------------------------*/
 .custom-icon {
-  color: var(--secondary-color);
+  color: var(--primary-color);
 }
 
 /*---------------------------------------
