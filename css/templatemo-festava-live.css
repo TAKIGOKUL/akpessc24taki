@@ -8,7 +8,7 @@
   --primary-color: #ffb53d ;
   --secondary-color: #1412114f;
   --section-bg-color: #00000079;
-  --custom-btn-bg-color: #ab7b2f;
+  --custom-btn-bg-color: #a67735;
   --custom-btn-bg-hover-color: #815317;
   --dark-color: #0000005d;
   --p-color: #ffffff00;
@@ -947,7 +947,7 @@ strong {
   padding-bottom: 30px; */
 }
 .site-footer-top1 {
-  background-color: #ffb53d;
+  background-color: #815323;
   background-image: url("../images/nainoa-shizuru-NcdG9mK3PBY-unsplash.jpg");
   background-repeat: no-repeat;
   margin-bottom: 70px;
