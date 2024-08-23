@@ -1291,7 +1291,7 @@ strong {
   height: auto;
 }
 
-/* Medium Devices (small phones, 375px and up) */
+/* small Devices (small phones, 375px and up) */
 @media (min-width: 360px) {
   .akpessc-logo {
       width: 310px;
