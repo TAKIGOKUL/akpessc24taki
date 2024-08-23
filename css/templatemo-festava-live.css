@@ -1287,8 +1287,15 @@ strong {
 /* Home Screen Center logo */
 
 .akpessc-logo {
-  width: 380px;
+  width: 300px;
   height: auto;
+}
+
+/* Medium Devices (small phones, 375px and up) */
+@media (min-width: 360px) {
+  .akpessc-logo {
+      width: 310px;
+  }
 }
 
 /* Medium Devices (Tablets, 768px and up) */
