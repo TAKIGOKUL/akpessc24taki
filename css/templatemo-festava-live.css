@@ -1328,3 +1328,16 @@ strong {
   max-width: 100%;
   object-fit: contain;
 }
+
+/* Price lable */
+.price-label {
+    background: rgba(255, 215, 0, 0.2); /* Transparent gold background */
+    color: #FFD700; /* Gold text color */
+    padding: 7px 10px;
+    border-radius: 10px;
+    backdrop-filter: blur(10px); /* Glassy effect */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    font-weight: bold;
+    display: inline-block;
+    text-align: center;
+}
