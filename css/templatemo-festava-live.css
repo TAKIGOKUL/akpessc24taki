@@ -37,7 +37,7 @@
 }
 
 body {
-  background-color: #d6ba2b;
+  background-color: #00000000;
   font-family: var(--body-font-family);
 }
 ,
@@ -1340,4 +1340,152 @@ strong {
     font-weight: bold;
     display: inline-block;
     text-align: center;
+}
+.star-container {
+    display: table;
+    width: 100%;
+    color: #000000;
+    line-height: 1.6;
+    position: relative;
+    font-family: sans-serif;
+    overflow: hidden
+}
+
+.lines {
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 90vw
+      color: #00ff08;
+
+}
+
+.line,.lines {
+    position: absolute;
+    top: 0;
+    height: 100%
+}
+
+.line {
+      
+
+    width: 1px;
+    left: 50%;
+    background: #ebdac000;
+    overflow: hidden
+}
+
+.line:after {
+    content: "";
+    display: block;
+    position: absolute;
+    height: 15vh;
+    width: 100%;
+    top: -50%;
+    left: 0;
+    background: linear-gradient(180deg,hsl(49, 72%, 46%) 0,#ec970ec9 75%,#bd8f46);
+    animation: drop 4s 0s infinite;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-out
+}
+
+.rotated {
+      
+
+    height: 1px;
+    width: 90%;
+    top: 50%;
+    left: 5%;
+    right: 5%
+}
+
+.rotated:after {
+    
+    content: "";
+    display: block;
+    position: absolute;
+    height: 100%;
+    width: 15vh;
+    left: -50%;
+    top: 0;
+    background: linear-gradient(90deg,#e2d9cb (0,0%,100%,0) 0,#d3a21d 75%,#fff);
+    animation: drop-side 5s 0s infinite;
+    animation-fill-mode: forwards;
+    animation-timing-function: cubic-bezier(.4,.26,0,.97)
+}
+
+.line:first-child {
+    margin-left: -30%
+}
+
+.line:first-child:after {
+    animation-delay: 1.5s
+}
+
+.line:nth-child(2) {
+    margin-left: -15%
+}
+
+.line:nth-child(2):after {
+    animation-delay: 2s
+}
+
+.line:nth-child(3) {
+    margin-left: 15%
+}
+
+.line:nth-child(3):after {
+    animation-delay: 1.5s
+}
+
+.line:nth-child(4) {
+    margin-left: 30%
+}
+
+.line:nth-child(4):after {
+    animation-delay: 2.5s
+}
+
+.rotated:nth-child(6) {
+    top: 15%
+}
+
+.rotated:nth-child(6):after {
+    animation-delay: 1.5s
+}
+
+.rotated:nth-child(7) {
+    top: 30%
+}
+
+.rotated:nth-child(7):after {
+    animation-delay: 2s
+}
+
+.rotated:nth-child(8) {
+    top: 65%
+}
+
+.rotated:nth-child(8):after {
+    animation-delay: 2.5s
+}
+
+@keyframes drop {
+    0% {
+        top: -50%
+    }
+
+    to {
+        top: 110%
+    }
+}
+
+@keyframes drop-side {
+    0% {
+        left: -50%
+    }
+
+    to {
+        left: 110%
+    }
 }
