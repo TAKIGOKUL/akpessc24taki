@@ -1,7 +1,9 @@
 ## Main Website
 
-https://ncerc.github.io/akpessc24/
+https://akpessc24.ieeesbncerc.org/
 
 ## Test Website
 
-https://akpessc24.ieeesbncerc.org/
+
+https://ncerc.github.io/akpessc24/
+
