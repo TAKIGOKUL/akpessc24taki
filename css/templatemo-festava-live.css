@@ -334,10 +334,14 @@ strong {
 }
 
 .tab-content {
-  background-color: #6b6b6bc5;
+  background: rgba(107, 107, 107, 0.5); /* Adjust alpha value (0.5) for desired transparency */
   border-radius: var(--border-radius-medium);
   padding: 45px;
+  backdrop-filter: blur(10px); /* Adjust blur radius for desired glass effect */
+  -webkit-backdrop-filter: blur(10px); /* For WebKit browsers */
+  border: 1px solid rgba(255, 255, 255, 0.3); /* Optional: Adds a border to enhance glass effect */
 }
+
 
 .nav-tabs {
   background-color: var(--section-bg-color);
